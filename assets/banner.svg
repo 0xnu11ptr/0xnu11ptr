@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 380" width="1280" height="380" role="img" aria-label="Mekahal Chamese Elddine — Penetration Tester, OSCP+, HTB CPTS">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0a0d"/>
+      <stop offset="1" stop-color="#050506"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ff3b46"/>
+      <stop offset=".5" stop-color="#b30f1a"/>
+      <stop offset="1" stop-color="#3a0307" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBlue" cx="0%" cy="100%" r="70%">
+      <stop offset="0" stop-color="#2f63e0" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#2f63e0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#a9acb3"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1280" height="380" rx="18"/></clipPath>
+    <style>
+      .rain line { stroke: #c9ccd1; stroke-width: 1; animation: fall 1.2s linear infinite; }
+      .rain line:nth-child(2n) { animation-duration: .9s; animation-delay: -.4s; }
+      .rain line:nth-child(3n) { animation-duration: 1.5s; animation-delay: -.8s; }
+      @keyframes fall { from { transform: translate(0, -60px); } to { transform: translate(-40px, 420px); } }
+      .ember { animation: ember 2.4s ease-in-out infinite; }
+      @keyframes ember { 50% { fill: #ffb27a; } }
+      .blink { animation: blink 1.4s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .title { font-family: "Bebas Neue", Impact, "Arial Narrow Bold", "Franklin Gothic Heavy", sans-serif; }
+      .mono { font-family: "IBM Plex Mono", "JetBrains Mono", Consolas, "Courier New", monospace; }
+      .sans { font-family: "Space Grotesk", "Segoe UI", Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="380" fill="url(#bg)"/>
+    <rect width="1280" height="380" fill="url(#grid)"/>
+    <rect width="1280" height="380" fill="url(#glowBlue)"/>
+    <circle cx="1020" cy="150" r="190" fill="url(#moon)" opacity=".85"/>
+    <circle cx="1020" cy="150" r="88" fill="#c3101d" opacity=".5"/>
+
+    <g class="rain" stroke-opacity=".22">
+      <line x1="80" y1="0" x2="72" y2="36"/><line x1="210" y1="40" x2="202" y2="76"/>
+      <line x1="330" y1="10" x2="322" y2="46"/><line x1="470" y1="70" x2="462" y2="106"/>
+      <line x1="600" y1="20" x2="592" y2="56"/><line x1="720" y1="90" x2="712" y2="126"/>
+      <line x1="860" y1="0" x2="852" y2="36"/><line x1="980" y1="60" x2="972" y2="96"/>
+      <line x1="1100" y1="30" x2="1092" y2="66"/><line x1="1220" y1="80" x2="1212" y2="116"/>
+      <line x1="150" y1="200" x2="142" y2="236"/><line x1="400" y1="240" x2="392" y2="276"/>
+      <line x1="650" y1="180" x2="642" y2="216"/><line x1="900" y1="230" x2="892" y2="266"/>
+      <line x1="1160" y1="210" x2="1152" y2="246"/><line x1="1260" y1="150" x2="1252" y2="186"/>
+    </g>
+
+    <path fill="#070708" d="M760 380 V300 h30 v-36 h22 v50 h18 v-70 h34 v86 h16 v-34 h26 v52 h20 V250 h36 v66 h22 v-44 h30 v56 h22 v-30 h16 v-20 h30 v60 h24 v-40 h30 v50 h20 v-26 h34 V380Z"/>
+
+    <g transform="translate(940 96) scale(1.25)">
+      <path d="M48 240 C52 196 62 166 78 152 L92 146 L100 170 L108 146 L122 152 C138 166 148 196 152 240Z" fill="#18181c"/>
+      <path d="M92 146 L100 170 L84 200 L72 158Z" fill="#232328"/>
+      <path d="M108 146 L100 170 L116 200 L128 158Z" fill="#232328"/>
+      <path d="M86 132 Q86 150 100 154 Q114 150 114 132 L114 116 Q100 108 86 116Z" fill="#0b0b0c"/>
+      <path d="M84 118 C82 136 80 150 76 160 L86 150 C88 140 88 128 88 120Z" fill="#c9ccd1" opacity=".85"/>
+      <path d="M116 118 C118 136 120 150 124 160 L114 150 C112 140 112 128 112 120Z" fill="#c9ccd1" opacity=".85"/>
+      <ellipse cx="100" cy="114" rx="40" ry="7" fill="#0d0d0e" stroke="#2c2c31"/>
+      <path d="M80 113 C80 96 84 84 100 84 C116 84 120 96 120 113Z" fill="#0b0b0c" stroke="#2c2c31"/>
+      <path d="M80 106 H120 V112 H80Z" fill="#1f1f23"/>
+      <path d="M108 140 l18 4" stroke="#dcdcdc" stroke-width="2.2" stroke-linecap="round"/>
+      <circle class="ember" cx="127" cy="144.3" r="2.2" fill="#ff4d2e"/>
+    </g>
+
+    <g transform="translate(72 0)">
+      <circle cx="6" cy="72" r="5" fill="#ff3341"/>
+      <text x="22" y="77" class="mono" font-size="15" letter-spacing="2.5" fill="#92939c">CASE NO. 4869 · CODENAME <tspan fill="#ff3341" font-weight="600">0xNU11PTR</tspan></text>
+      <text x="0" y="180" class="title" font-size="104" letter-spacing="1" fill="url(#silver)">MEKAHAL</text>
+      <text x="0" y="250" class="title" font-size="70" letter-spacing="1.5" fill="none" stroke="#c9ccd1" stroke-width="1.4">CHAMESE ELDDINE</text>
+      <text x="0" y="292" class="sans" font-size="20" font-weight="600" letter-spacing="2" fill="#e8e8ec">PENETRATION TESTER  <tspan fill="#ff3341">—</tspan>  OSCP+  <tspan fill="#ff3341">—</tspan>  HTB CPTS</text>
+      <rect x="0" y="318" width="44" height="2.5" fill="#ff3341"/>
+      <text x="58" y="328" class="title" font-size="28" letter-spacing="3" fill="#ff3341">ONE TRUTH PREVAILS.</text>
+      <text x="420" y="327" class="mono" font-size="15" fill="#6b95ff">&gt; whoami<tspan class="blink">_</tspan></text>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="1279" height="379" rx="18" fill="none" stroke="#ffffff" stroke-opacity=".1"/>
+</svg>
